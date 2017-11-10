@@ -1,8 +1,10 @@
 {
   "paragraphs": [
     {
-      "title": "Introduction",
+      "title": "Introduction updated",
       "text": "%md ###This notebook supports multiple language backend\n- default: scala with SparkContext available as sc\n- %md: markdown\n- %sql: hive on spark by default. hiveContext object is also available by default. If you specify zeppelin.spark.useHiveContext as false in interpreter settings then this will use spark sql and sqlContext object becomes available\n- %pyspark: pyspark\n- %sh: shell \n\nInterpreters are loaded lazily and hence takes some time the first time.\nNote uses a websocket for communication. So changes propagate to all open instnces of this notebook instantaneously\nUser can configure parameters with which sc object is created by going to interpreters. \nUser can create as many sc interpreters as they want with different settings\nQubole Notes supports auto assist for code completion. You can view the suggestions using the key combination  __Ctrl + .(period)__\n\n##Note that\n- If you use sc.stop in the notebook then spark context will stop and you have to go to interpreter page and click on restart to restart that interpreter again.\n",
+      "user": "omulay@qubole.com",
+      "dateUpdated": "Nov 10, 2017 7:13:01 PM",
       "config": {
         "looknfeel": "default",
         "colWidth": 12.0,
@@ -17,7 +19,9 @@
         },
         "tableHide": false,
         "editorHide": false,
-        "title": true
+        "title": true,
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -825,7 +829,12 @@
   ],
   "name": "github-integration",
   "id": "WXV5DAZAYJ1510340384",
-  "angularObjects": {},
+  "angularObjects": {
+    "2CXR3D5J4414011510341065578:shared_process": [],
+    "2D1BWMU35414011510341065682:shared_process": [],
+    "2CWVWDECT414011510341065722:shared_process": [],
+    "2CYWZTGJR414011510341065659:shared_process": []
+  },
   "config": {
     "isDashboard": false
   },
